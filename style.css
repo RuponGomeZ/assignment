@@ -38,11 +38,24 @@
 }
 
 /* Failur Section  */
-.my-failour{
-    margin-left: 900px;
-    padding-top: 190px;
-    
+.person-img {
+    width: 569px;
+    height: 723.3px;
+    left: 206px;
+    top: 939px;
 }
+
+.failur-align {
+    display: flex;
+    padding-top: 200px;
+}
+
+.my-failour{
+    margin-left: 120px;
+    padding-top: 80px;
+
+}
+
 .failur-title {
     font-weight: 700;
     font-size: 40px;
