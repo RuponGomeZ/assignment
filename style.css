@@ -38,6 +38,7 @@
 }
 
 /* Failur Section  */
+
 .person-img {
     width: 569px;
     height: 723.3px;
@@ -48,9 +49,10 @@
 .failur-align {
     display: flex;
     padding-top: 200px;
+    text-decoration: none;
 }
 
-.my-failour{
+.my-failour {
     margin-left: 120px;
     padding-top: 80px;
 
@@ -66,4 +68,10 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
+}
+.failur-list{
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+padding-top: 0px;
 }
