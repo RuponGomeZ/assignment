@@ -1,0 +1,56 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Header */
+.header {
+    background-image: url('/images/banner/banner1.png');
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 808px;
+    left: 1600px;
+    top: 808px;
+
+}
+
+.nav-title {
+    font-weight: 700;
+    font-size: 65px;
+    color: #151414;
+}
+
+.header-txt {
+    text-align: right;
+    padding-top: 190px;
+    padding-right: 170px;
+}
+
+.contact-us-btn {
+    height: 64px;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+}
+
+/* Failur Section  */
+.my-failour{
+    margin-left: 900px;
+    padding-top: 190px;
+    
+}
+.failur-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+.failur-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
