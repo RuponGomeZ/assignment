@@ -80,13 +80,28 @@ list-style: circle;
 
 /* My Plans Section */
 
-.plans-title{
+
+.plans-heading{
     text-align: center;
     margin-top: 100px;
     font-weight: 700;
 font-size: 40px;
 line-height: 47px;
 }
-.failur-list{
-
+.plan-titles{
+    display: flex;
+    gap: 90px;
+    list-style: none;
+    padding-top: 40px;
+    color: #151414;
+}
+.plan-titles-align{
+    padding-left: 230px;
+}
+.plan-description{
+    font-weight: 500;
+font-size: 25px;
+line-height: 29px;
+padding-top: 16px;
+color: #737272;
 }
