@@ -77,5 +77,14 @@ font-size: 16px;
 line-height: 26px;
 padding-top: 0px;
 list-style: circle;
+}
 
+/* My Plans Section */
+
+.plans-title{
+    text-align: center;
+    margin-top: 100px;
+    font-weight: 700;
+font-size: 40px;
+line-height: 47px;
 }
