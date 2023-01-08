@@ -113,8 +113,8 @@
 /* Watch banner */
 
 .watch-banner {
-    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), 
-    url("./images/watch.png");
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),
+        url("./images/watch.png");
 
     border-radius: 8px;
     margin-left: 200px;
@@ -147,4 +147,83 @@
     line-height: 23px;
     text-align: center;
     color: #F15B22;
+}
+
+/* Footer  */
+
+.background {
+    width: 1600px;
+    height: 577px;
+    margin-top: 300px;
+    background: #151414;
+}
+
+.footer-title {
+    position: absolute;
+    width: 148px;
+    height: 53px;
+    left: 180px;
+    top: 2950.26px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+
+}
+
+.future-description {
+    position: absolute;
+    width: 485px;
+    height: 78px;
+    left: 180px;
+    top: 3040px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+
+.icons {
+    position: absolute;
+    width: 485px;
+    height: 78px;
+    left: 130px;
+    top: 3220px;
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.subscribe {
+    position: absolute;
+    left: 1046px;
+    top: 2950.26px;
+    width: 123px;
+    height: 29px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+}
+
+.input-email {
+    position: absolute;
+    width: 325px;
+    height: 100px;
+    left: 1046px;
+    top: 3000px;
+    color: #FFFFFF
+}
+.subscribe-btn{
+    position: absolute;
+width: 140px;
+height: 50px;
+left: 1046px;
+top: 3040px;
+font-weight: 600;
+font-size: 17px;
+line-height: 24px;
+color: #F15B22;
+
 }
