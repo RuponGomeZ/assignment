@@ -70,38 +70,81 @@
     font-size: 16px;
     line-height: 26px;
 }
+
 .failur-list {
     font-weight: 400;
-font-size: 16px;
-line-height: 26px;
-padding-top: 0px;
-list-style: circle;
+    font-size: 16px;
+    line-height: 26px;
+    padding-top: 0px;
+    list-style: circle;
 }
 
 /* My Plans Section */
 
 
-.plans-heading{
+.plans-heading {
     text-align: center;
     margin-top: 100px;
     font-weight: 700;
-font-size: 40px;
-line-height: 47px;
+    font-size: 40px;
+    line-height: 47px;
 }
-.plan-titles{
+
+.plan-titles {
     display: flex;
     gap: 90px;
     list-style: none;
     padding-top: 40px;
     color: #151414;
 }
-.plan-titles-align{
+
+.plan-titles-align {
     padding-left: 230px;
 }
-.plan-description{
+
+.plan-description {
     font-weight: 500;
-font-size: 25px;
-line-height: 29px;
-padding-top: 16px;
-color: #737272;
+    font-size: 25px;
+    line-height: 29px;
+    padding-top: 16px;
+    color: #737272;
+}
+
+/* Watch banner */
+
+.watch-banner {
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), 
+    url("./images/watch.png");
+
+    border-radius: 8px;
+    margin-left: 200px;
+    width: 1140px;
+    height: 300px;
+    margin-top: 30px;
+    background-repeat: no-repeat;
+}
+
+.banner-text {
+    position: absolute;
+    width: 459px;
+    height: 94px;
+    left: 294px;
+    top: 2281.26px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+
+.call-btn {
+    position: absolute;
+    width: 160px;
+    height: 64px;
+    left: 294px;
+    top: 2402.26px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #F15B22;
 }
