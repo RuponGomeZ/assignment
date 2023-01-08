@@ -5,7 +5,7 @@
 
 /* Header */
 .header {
-    background-image: url('/images/banner/banner1.png');
+    background-image: url('../images/banner/banner1.png');
     background-repeat: no-repeat;
     width: 1600px;
     height: 808px;
@@ -46,10 +46,12 @@
     top: 939px;
 }
 
-.failur-align {
+.failur-section {
     display: flex;
     padding-top: 200px;
     text-decoration: none;
+    padding-left: 100px;
+    list-style-type: none;
 }
 
 .my-failour {
@@ -69,9 +71,11 @@
     font-size: 16px;
     line-height: 26px;
 }
-.failur-list{
+.failur-list {
     font-weight: 400;
 font-size: 16px;
 line-height: 26px;
 padding-top: 0px;
+list-style: none;
+
 }
